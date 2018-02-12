@@ -3,7 +3,7 @@
       margin-left: auto;
       margin-right:auto;
       border-radius: 5px;
-      color:#fff;
+      color:#FFF;
       text-align: center;
       padding-top: .5rem;
       max-width:85%;
@@ -12,4 +12,5 @@
       margin-top: .5rem;
       display: flex;
       flex-direction: column;
+      cursor: pointer;
 }

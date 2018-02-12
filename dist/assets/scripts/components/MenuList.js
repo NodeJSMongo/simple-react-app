@@ -2,23 +2,25 @@ import React, {Component} from 'react';
 import {connect} from 'react-redux';
 import {selectItem} from '../actions/index';
 import {bindActionCreators} from 'redux';
-
 class MenuList extends Component{
   renderList(){
     return this.props.Items.map((Item)=>{
       return(
-        <li
-          key="{item.title}"
-          onClick={()=>this.props.selectItem(Item)}>
-          {item.title}
-        </li>
+        <div>
+          <li class="menuList"
+            key={Item.title}
+            onClick={()=>this.props.selectItem(Item)}
+          >
+           {Item.title}
+          </li>
+        </div>
       );
     });
   }
   render(){
     return(
       <ul>
-        {this.renderList()} //helper function
+        {this.renderList()}
       </ul>
     );
   }

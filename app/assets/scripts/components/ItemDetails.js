@@ -10,6 +10,7 @@ class ItemDetails extends Component{
     return(
       <div class="details">
         <h3 class="section-title page-section">{this.props.Item.title}</h3>
+        <p>{this.props.Item.details}</p>
       </div>
     );
   }

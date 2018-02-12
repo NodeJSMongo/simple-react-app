@@ -21608,6 +21608,11 @@ var ItemDetails = function (_Component) {
           'h3',
           { 'class': 'section-title page-section' },
           this.props.Item.title
+        ),
+        _react2.default.createElement(
+          'p',
+          null,
+          this.props.Item.details
         )
       );
     }
@@ -21730,7 +21735,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 
 exports.default = function () {
-  return [{ title: 'Git' }, { title: 'Webpack' }, { title: 'Gulp' }, { title: 'CSS' }, { title: 'HTML' }, { title: 'React' }, { title: 'Redux' }, { title: 'Nodejs' }, { title: 'MongoDB' }, { title: 'SVG' }, { title: 'React-Native' }, { title: 'Wordpress' }, { title: 'BootStarp' }, { title: 'jQuery' }];
+  return [{ title: 'Git', details: 'Version Control System' }, { title: 'Webpack', details: 'Project file bundler' }, { title: 'Gulp', details: '' }, { title: 'CSS', details: 'Cascading StyleSheet' }, { title: 'HTML', details: 'HyperText Markup Language' }, { title: 'React', details: 'javascript FrameWork' }, { title: 'Redux', details: '' }, { title: 'Nodejs', details: '' }, { title: 'MongoDB', details: '' }, { title: 'SVG', details: '' }, { title: 'React-Native', details: '' }, { title: 'Wordpress', details: '' }, { title: 'BootStarp', details: '' }, { title: 'jQuery', details: '' }];
 };
 
 /***/ }),

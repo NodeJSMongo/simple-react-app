@@ -1549,7 +1549,7 @@ background-color: rgb(215,218,224);
       margin-left: auto;
       margin-right:auto;
       border-radius: 5px;
-      color:#fff;
+      color:#FFF;
       text-align: center;
       padding-top: .5rem;
       max-width:85%;
@@ -1563,6 +1563,7 @@ background-color: rgb(215,218,224);
       -webkit-box-direction: normal;
           -ms-flex-direction: column;
               flex-direction: column;
+      cursor: pointer;
 }
 
 .details{
